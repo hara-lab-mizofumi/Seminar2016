@@ -14,10 +14,10 @@ Windowsのコマンドプロンプトで次のコマンドを叩いていきま�
 
 ###Ubuntu側(仮想マシン側)での操作
 上のコマンドを叩くと、仮想マシンにログインした状態になります。ログインした状態であれば次のコマンドを順番に叩きます。
-` apt-get install python-pydot `
-` mv /root/caffe/ /mnt/ `
-` echo 'export PYTHONPATH="${PYTHONPATH}:/mnt/caffe/python"' >> ~/.bashrc `
-` source ~/.bashrc `
+` apt-get install python-pydot `  
+` mv /root/caffe/ /mnt/ `  
+` echo 'export PYTHONPATH="${PYTHONPATH}:/mnt/caffe/python"' >> ~/.bashrc `  
+` source ~/.bashrc `  
 
 以上でCaffeを使用する準備が整いました。
 あとは、Caffeをじっくり触ってみましょう。
